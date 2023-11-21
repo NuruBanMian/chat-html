@@ -1,0 +1,98 @@
+body {
+    background-image: url(../images/b10d45ba264c61e6806ffbf86b29082.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+form {
+    width: 600px;
+    height: 400px;
+    text-align: center;
+    position: relative;
+    margin: 0 auto;
+    background-color: rgba(0, 0, 0, 0.479);
+    margin-top: 10%;
+    border-radius: 20px;
+    padding: 40px;
+}
+
+.login {
+    width: 200px;
+    height: 50px;
+    margin: 0 auto;
+    line-height: 50px;
+}
+
+.login a {
+    font-size: 36px;
+    color: whitesmoke;
+}
+
+.passWord,
+.userName,
+.button {
+    width: 420px;
+    margin: 0 auto;
+    margin-top: 30px;
+    box-sizing: border-box;
+}
+
+.passWord p,
+.userName p {
+    color: whitesmoke;
+    font-size: 28px;
+    line-height: 50px;
+    width: 100px;
+    text-align: left;
+}
+
+#userName,
+#passWord {
+    height: 50px;
+    width: 320px;
+    font-size: 24px;
+    outline: none;
+    padding-left: 20px;
+    background: none;
+    border-radius: 15px;
+    border: 2px solid gray;
+}
+
+button {
+    width: 100px;
+    height: 40px;
+    background: none;
+    outline: none;
+    border: 1px solid gray;
+    border-radius: 15px;
+    font-size: 24px;
+    transition: all 1s;
+    color: whitesmoke;
+}
+
+button:hover {
+    background: rgba(124, 220, 223, 0.541);
+    color: whitesmoke;
+}
+
+.register {
+    width: 300px;
+    margin-top: 20px;
+}
+
+.register a {
+    color: whitesmoke;
+    font-size: 18px;
+}
+
+.register a:hover {
+    color: rgb(169, 223, 223);
+}
+
+input {
+    color: whitesmoke;
+}
+
+input::placeholder {
+    color: rgb(177, 177, 202);
+}
